@@ -1,0 +1,1 @@
+{"level":"error","message":"Error creating the user: ReferenceError: user is not defined","service":"acquisitions-api"}
