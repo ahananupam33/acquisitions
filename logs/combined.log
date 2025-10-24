@@ -33,3 +33,25 @@
 {"level":"info","message":"User user2@email.com created successfully","service":"acquisitions-api"}
 {"level":"info","message":"User registered successfully: user2@email.com","service":"acquisitions-api"}
 {"level":"info","message":"::ffff:127.0.0.1 - - [23/Oct/2025:19:28:10 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 100 \"-\" \"vscode-restclient\"","service":"acquisitions-api"}
+{"level":"info","message":"User user1@email.com created successfully","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: user1@email.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [24/Oct/2025:18:03:57 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 100 \"-\" \"vscode-restclient\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [24/Oct/2025:18:04:17 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 400 92 \"-\" \"vscode-restclient\"","service":"acquisitions-api"}
+{"level":"info","message":"User user1@email.com authenticated successfully","service":"acquisitions-api"}
+{"level":"info","message":"User signed in successfully: user1@email.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [24/Oct/2025:18:04:57 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 113 \"-\" \"vscode-restclient\"","service":"acquisitions-api"}
+{"level":"info","message":"User user1@email.com authenticated successfully","service":"acquisitions-api"}
+{"level":"info","message":"User signed in successfully: user1@email.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [24/Oct/2025:18:05:14 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 113 \"-\" \"vscode-restclient\"","service":"acquisitions-api"}
+{"level":"info","message":"User signed out successfully","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [24/Oct/2025:18:05:19 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"vscode-restclient\"","service":"acquisitions-api"}
+{"level":"info","message":"User signed out successfully","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [24/Oct/2025:18:05:25 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"vscode-restclient\"","service":"acquisitions-api"}
+{"level":"error","message":"Error authenticating user: Error: Incorrect password. Please try again","service":"acquisitions-api"}
+{"level":"error","message":"Sign In error Incorrect password. Please try again","service":"acquisitions-api","stack":"Error: Incorrect password. Please try again\n    at authenticateUser (file:///E:/Docker%20Projects/acquisitions/src/services/auth.service.js:64:13)\n    at async signIn (file:///E:/Docker%20Projects/acquisitions/src/controllers/auth.controller.js:56:18)"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [24/Oct/2025:18:05:40 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 500 404 \"-\" \"vscode-restclient\"","service":"acquisitions-api"}
+{"level":"info","message":"User user1@email.com authenticated successfully","service":"acquisitions-api"}
+{"level":"info","message":"User signed in successfully: user1@email.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [24/Oct/2025:18:05:55 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 113 \"-\" \"vscode-restclient\"","service":"acquisitions-api"}
+{"level":"info","message":"User signed out successfully","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [24/Oct/2025:18:06:00 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"vscode-restclient\"","service":"acquisitions-api"}

@@ -1,1 +1,3 @@
 {"level":"error","message":"Error creating the user: ReferenceError: user is not defined","service":"acquisitions-api"}
+{"level":"error","message":"Error authenticating user: Error: Incorrect password. Please try again","service":"acquisitions-api"}
+{"level":"error","message":"Sign In error Incorrect password. Please try again","service":"acquisitions-api","stack":"Error: Incorrect password. Please try again\n    at authenticateUser (file:///E:/Docker%20Projects/acquisitions/src/services/auth.service.js:64:13)\n    at async signIn (file:///E:/Docker%20Projects/acquisitions/src/controllers/auth.controller.js:56:18)"}

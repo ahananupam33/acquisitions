@@ -1,10 +1,26 @@
-
+# Sign Up
 POST http://localhost:8080/api/auth/sign-up
 Content-Type: application/json
 
 {
-    "name": "User2",
-    "email": "User2@email.com",
-    "password": "USER904",
+    "name": "User1",
+    "email": "User1@email.com",
+    "password": "USER123",
     "role": "user"
 }
+
+###
+
+# Sign In
+POST http://localhost:8080/api/auth/sign-in
+Content-Type: application/json
+
+{
+    "email": "User1@email.com",
+    "password": "USER123"
+}
+
+### 
+
+# Sign Out
+POST http://localhost:8080/api/auth/sign-out
